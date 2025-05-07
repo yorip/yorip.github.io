@@ -1,84 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Robotythm</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <meta charset="UTF-8">
+  <title>〇〇大学 ◯◯研究室</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: auto;
+      padding: 1rem;
+    }
+    header, footer {
+      text-align: center;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #007acc;
+    }
+    h1, h2 {
+      color: #003366;
+    }
+  </style>
 </head>
 <body>
+
   <header>
-    <div class="container">
-      <div class="header-left">
-        <a href="#">Robotythm</a>
-      </div>
-      <span class="fa fa-bars menu-icon"></span>
-      <div class="header-right">
-        <a href="#">Paper</a>
-        <a href="#">Research</a>
-        <a href="#">Bio</a>
-      </div>
-    </div>
+    <h1>〇〇大学 ◯◯研究室</h1>
+    <p>Department of ABC, XYZ University</p>
+    <nav>
+      <a href="#about">研究室について</a>
+      <a href="#members">メンバー</a>
+      <a href="#research">研究内容</a>
+      <a href="#contact">連絡先</a>
+    </nav>
   </header>
-  <div class="top-wrapper">
-    <div class="container">
-      <h1>LEARN TO CODE.<br>LEARN TO BE CREATIVE.</h1>
-      <p>RobotyRhythmはロボットを日常生活で活用するための技術開発を行うラボです。</p>
-    </div>
-  </div>
-  <div class="lesson-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>Learn Where to Get Started!</h2>
-      </div>
-      <div class="lessons">
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/html.png">
-            <p>HTML & CSS</p>
-          </div>
-          <p class="text-contents">ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-            <p>jQuery</p>
-          </div>
-          <p class="text-contents">素敵な動きを手軽に実装できるJavaScriptライブラリです。 アニメーション効果をつけたり、Ajax（エイジャックス）を使って外部ファイルを読み込んだりと色々なことができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/ruby.png">
-            <p>Ruby</p>
-          </div>
-          <p class="text-contents">オープンソースの動的なプログラミング言語で、 シンプルさと高い生産性を備えています。大きなWebアプリケーションから小さな日用ツールまで、さまざまなソフトウェアを作ることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/php.png">
-            <p>PHP</p>
-          </div>
-          <p class="text-contents">HTMLだけではページの内容を変えることはできません。PHPはHTMLにプログラムを埋め込み、それを可能にします。</p>
-        </div>
-      </div>
-      <div class="clear"></div>
-    </div>
-  </div>
-  <div class="message-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?</h2>
-        <h3>Let's learn to code, learn to be creative!</h3>
-      </div>
-      <span class="btn message">さっそく開発する</span>
-    </div>
-  </div>
+
+  <section id="about">
+    <h2>研究室について</h2>
+    <p>
+      私たちの研究室では、AIとロボットの共進化をテーマに、人間と共に成長するインタラクティブなシステムの開発に取り組んでいます。
+    </p>
+  </section>
+
+  <section id="members">
+    <h2>メンバー</h2>
+    <ul>
+      <li>教授：山田 太郎</li>
+      <li>助教：佐藤 花子</li>
+      <li>博士課程：3名</li>
+      <li>修士課程：5名</li>
+      <li>学部生：2名</li>
+    </ul>
+  </section>
+
+  <section id="research">
+    <h2>研究内容</h2>
+    <ul>
+      <li>対話型ロボットと心理的適応</li>
+      <li>ゲーミフィケーションによる高齢者支援</li>
+      <li>強化学習を用いたミニ四駆の走行制御</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>連絡先</h2>
+    <p>
+      〇〇大学 ◯◯研究室<br>
+      〒123-4567 東京都〇〇市〇〇町1-1-1<br>
+      Email: example@example.ac.jp
+    </p>
+  </section>
+
   <footer>
-    <div class="container">
-      <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-      <p>Learn to Code, Learn to be Creative.</p>
-    </div>
+    <p>&copy; 2025 〇〇大学 ◯◯研究室</p>
   </footer>
+
 </body>
 </html>
