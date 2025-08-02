@@ -1,131 +1,81 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <title>第一工科大学 AIロボット分野研究室</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      line-height: 1.6;
-      max-width: 800px;
-      margin: auto;
-      padding: 1rem;
-    }
-    header, footer {
-	  background-color: #4cafaf;
-      text-align: center;
-    }
-    nav a {
-      margin: 0 10px;
-      text-align: center;
-      text-decoration: none;
-      color: #007acc;
-    }
-    h1, h2 {
-      color: #003366;
-    }
-  </style>
-</head>
-<body>
+---
+layout: default
+title: ホーム
+---
 
-  <header>
-    <h1>第一工科大学 AIロボット分野研究室</h1>
-    <p>Department of Mechanical Systems Engineering, DIT</p>
-    <nav>
-      <a href="#about">研究室について</a>
-      <a href="#members">メンバー</a>
-      <a href="#research">研究内容</a>
-	  <a href="/blog">ブログ</a>
-      <a href="#paper">研究業績</a>
-      <a href="./seminar.html">勉強会</a>
-      <a href="#contact">連絡先</a>
-    </nav>
-  </header>
+<header>
+  <h1>第一工科大学 AIロボット分野研究室</h1>
+  <p>Department of Mechanical Systems Engineering, DIT</p>
+  <nav>
+    <a href="#about">研究室について</a>
+    <a href="#members">メンバー</a>
+    <a href="#research">研究内容</a>
+    <a href="/blog">ブログ</a>
+    <a href="#paper">研究業績</a>
+    <a href="./seminar.html">勉強会</a>
+    <a href="#contact">連絡先</a>
+  </nav>
+</header>
 
+<section id="about">
+  <h2>研究室について</h2>
+  <p>
+    私たちの研究室では、AIとロボットの共進化をテーマに、人間と共に成長するインタラクティブなシステムの<br>
+    開発に取り組んでいます。<br>
+    メインは人間を支援するコミュニケーションロボットで、ファジィ理論、遺伝的アルゴリズム、強化学習などのソフトコンピューティング技術を用いて研究しています。<br>
+    また、人間についての理解を深めるために、心理学の理論を用いた研究も行っています。<br>
+    最新の情報は<a href="/blog">ブログ</a>にて案内します。
+  </p>
+</section>
 
-	
-  <section id="about">
-    <h2>研究室について</h2>
-    <p>
-      私たちの研究室では、AIとロボットの共進化をテーマに、人間と共に成長するインタラクティブなシステムの<br>開発に取り組んでいます。<br>メインは人間を支援するコミュニケーションロボットで、ファジィ理論、遺伝的アルゴリズム、強化学習などのソフトコンピューティング技術を用いて研究しています。<br>また、人間についての理解を深めるために、心理学の理論を用いた研究も行っています。<br>
-	  最新の情報は<a href="/blog">ブログ</a>にて案内します。
-    </p>
-  </section>
+<section id="members">
+  <h2>メンバー</h2>
+  <ul>
+    <li>助教：<a href="./jokyo.html">寄田　明宏</a></li>
+    <li>博士課程：0名</li>
+    <li>修士課程：0名</li>
+    <li>学部生：2名</li>
+  </ul>
+</section>
 
-  <section id="members">
-    <h2>メンバー</h2>
-    <ul>
-      <li>助教：<a href="./jokyo.html">寄田　明宏</a></li>
-      <li>博士課程：0名</li>
-      <li>修士課程：0名</li>
-      <li>学部生：2名</li>
-    </ul>
-  </section>
+<section id="research">
+  <h2>研究内容</h2>
+  <ul>
+    <li><a href="./research1.html">対話型ロボットと心理的適応</a></li>
+    <li><a href="https://kub-lab.jp/tmt/">ゲーミフィケーションによる高齢者支援</a></li>
+    <li>強化学習を用いたミニ四駆の走行制御</li>
+    <li>ロボット演劇教育</li>
+  </ul>
+</section>
 
-  <section id="research">
-    <h2>研究内容</h2>
-    <ul>
-      <li><a href="./research1.html">対話型ロボットと心理的適応</a></li>
-      <li><a href="https://kub-lab.jp/tmt/">ゲーミフィケーションによる高齢者支援</a></li>
-      <li>強化学習を用いたミニ四駆の走行制御</li>
-      <li>ロボット演劇教育</li>
-    </ul>
-  </section>
+<section id="paper">
+  <h2>研究業績</h2>
+  <!-- 学術業績リストは省略。元の内容をここに貼り付け -->
+  <p><a href="./paper.html">▶︎ 全研究業績を見る</a></p>
+</section>
 
-  <section id="paper">
-    <h2>研究業績</h2>
-    <ul>
-      <li>2025年</li>
-	  	<ol>
-	  <li> Y. Guo, C. Siow, W. Chin, B. Hadžić, A. Yorita, T. Obo, M. Rätsch, and N. Kubota, “Enhancing Individual Self-Efficacy Through a Self-Growing Memory Artificial Intelligence Agent Integrated with a Diary Application,” J. Adv. Comput. Intell. Intell. Inform., Vol.29 No.1, pp. 41-52, 2025.</li>
-	  <li> 寄田 明宏, 久保田 直行, カンガルー型ロボットセラピーのためのソシオンモデル, ロボティクス・メカトロニクス講演会2025, 2P1-H12, 2025.</li>
-	  <li> 目片幸二郎、寄田明宏、青村茂、成瀬信平、久保田直行、TMT の重要評価項目であるペン離し回数の自動計測、第62 回日本リハビリテーション医学会学術集会、3-PK-2-10、国立京都国際会館、2025年6月12日－14日、2025</li>
-  	  </ol>
-      <li>2024年</li>
-	  	<ol>
-	  <li>寄田 明宏, 平田 泰久,  岡部 康平, 久保田 直行, 質的同一性を持ったAIロボットの介護コミュニケーション支援, 第42回 日本ロボット学会学術講演会講演論文集, 3L4-05, 大阪, September 03-06, 2024.</li>
-	  <li>寄田,岡部, 平田, 久保田, AIロボットの質的同一性に基づく首尾一貫感覚向上のシナリオ, 第15回横幹連合コンファレンス講演論文集, D-1-5, 東京, December 14-15, 2024.</li>
-	  <li>久保田 直行, 寄田 明宏, 大保 武慶, 岡部 康平, 平田 泰久, 人間共生システムにおける機械学習, 第15回横幹連合コンファレンス, 講演論文集, 東京, December 14-15, 2024.</li>
-	  <li>江口 昌利, 浜田 国和, 渡邉 真広, 髙野 真拓, Franz Chuquirachi, 張 鈺奇, 宋 青蔚, 大保 武慶, 寄田 明宏, 久保田 直行, 認知・運動能力の計測に基づく健康づくり支援とゲーミフィケーション, 第32回インテリジェント・システム・シンポジウム(FANシンポジウム), 講演論文集, pp. 197-201, 福島, September 18-19, 2024.</li>
-	  <li>寄田 明宏，西末 浩司，郭 雨宸，浜田 国和，田井中 一輝，高野 真拓，久保田 直行, カンガルーケアのエッセンスを持つバイオミメティックケアロボット, 第25回計測自動制御学会システムインテグレーション部門講演会(SI2024),3G2-06, 岩手, December 18-20, 2024.</li>
-	  <li>Akihiro Yorita, Mario Radke, Matthias Ra ̈tsch, Naoyuki Kubota, Self-Categorization Theory with 3D Emotional Model for Chatbot Emotional Support Systems, IEEE 18th International Symposium on Applied Computational Intelligence and Informatics, pp.267-272, May 23-25, 2024. (DOI: 1109/SACI60582.2024.10619061)</li>
-	  <li>Haruto Mukai, Akihiro Yorita, Kojiro Mekata, Shigeru Aomura, Takenori Obo, Naoyuki Kubota, Digital Trail Making Test: Proposal of the age estimation model using multi-task learning neural network for evaluation of attention, In Proceedings of the 2024 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE 2024), Yokohama, Japan, June 30 – July 05, 2024.</li>
-	  <li>Akihiro Yorita, Yasuhisa Hirata, Kohei Okabe, Bakir Hadžić, Parvez Mohammed, Mario Radke, Matthias Ra ̈tsch, Naoyuki Kubota, Is it necessary to set up a personality for the development of ai robots with a qualitative identity?, Proceedings of the Nineth International Conference on Robot Ethics and Standards, pp.171-182, Yokohama, Japan, July 29-31, </li>
-	  <li>Akihiro Yorita, Kunikazu Hamada, Kazuki Tainaka, Mahiro Takano, Guo Yuchen, Naoyuki Kubota, Smart Device Robot Diary System, In Proceedings of the 23rd International Conference on Machine Learning and Cybernetics (ICMLC), Miyazaki, Japan, September 20-23, 2024</li>
-	  	</ol>
-      <li>2023年</li>
-	  	  <ol>
-	  	  <li>寄田明宏，郭雨宸，大保武慶，本田 英二，久保田直行，高齢者を繋ぐサービスデザインのための継続学習，第5回 継続学習と知能の創発研究会 講演論文集, pp.1-5, 大阪, June 9, 2023.</li>
-	  	  <li>向井陽斗，目片幸二郎，寄田明宏， 青村茂，久保田直行, タブレット版 TMT アプリ実施結果の統計データ分析, 第5回 継続学習と知能の創発研究会 講演論文集, pp.14-15, 大阪, June 9, 2023.</li>
-	  	  <li>郭雨宸，窦文邦，Wei Hong Chin，寄田明宏，久保田直行, 個人の自己効力感向上のための動的メモリベースの適応モデル, 第39回 ファジィ システム シンポジウム / FSS2023, ヴィラ・デ・マリアージュ軽井沢, September 5-7,2023.</li>
-	  	  <li>向井 陽斗, 目片 幸二郎, 寄田 明宏, 青村 茂, 大保 武慶, 久保田 直行, スマートTMT における合計遂行時間と認知時間の相関関係の解明, 第31回インテリジェント・システム・シンポジウム(FANシンポジウム), 講演論文集, Fr-A2-3, 福岡, September 7-8, 2023.</li>
-	  	  <li>久保田 直行, 大保 武慶, 寄田 明宏, 山本淳一, 岡部 康平, 加藤 健治, 平田 泰久, 本田 英二, 高齢者支援のためのコミュニティ・セントリック・システム, 第31回インテリジェント・システム・シンポジウム(FANシンポジウム), 講演論文集, Fr-C1-4, 福岡, September 7-8, 2023.</li>
-	  	  <li>Akihiro Yorita, Simon Egerton, Carina Chan and Naoyuki Kubota, Chatbot Persona Selection Methodology for Emotional Support, In Proceedings of 62nd Annual Conference of the Society of Instrument and Control Engineers of Japan (SICE), pp.333-338, September 6-9, 2023. Tsu City, Japan.</li>
-		  </ol>
-		  
-      <li>2022年</li>
-  	  <ol>
-  	  <li>寄田明宏, 蕪木梨乃, 和田一義, 久保田直行, ロボット演劇を用いた社会的問題解決型学習, 第40回日本ロボット学会学術講演会（RSJ 2022）, 4G2-07, September 5-8, 2022.</li>
-  	  <li>江口 昌利, 寄田明宏, 蕪木梨乃, 丹野 亮佑, 浜田 国和, 渡邉 真広, 久保田直行, トレーラ型リビングラボにおける日常動作計測システム, 第38回 ファジィシステムシンポジウム (FSS), WF3-3, September 14-16, 2022.</li>
-  	  <li>寄田 明宏,大室 海理,Simon Egerton,久保田 直行, リビングジムにおけるロボットパートナーを用いたコグニサイズ開発, 第66回システム制御情報学会研究発表講演会, 講演論文集, 131-4, 2022.</li>
-      </ol>
-	  <li><a href="./paper.html">2021年以前</a></li>  
+<section id="blog">
+  <h2>最新の投稿</h2>
+  <ul>
+    {% for post in site.posts limit:5 %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a><br>
+        <small>{{ post.date | date: "%Y年%m月%d日" }}</small>
+      </li>
+    {% endfor %}
+  </ul>
+  <p><a href="/blog/">▶︎ すべての記事を見る</a></p>
+</section>
 
-    </ul>
-  </section>
-  
-  <section id="contact">
-    <h2>連絡先</h2>
-    <p>
-      第一工科大学 AIロボット分野研究室<br>
-      〒899-4332 鹿児島県霧島市国分中央1-10-2<br>
-      Email: a-yorita@daiichi-koudai.ac.jp
-    </p>
-  </section>
+<section id="contact">
+  <h2>連絡先</h2>
+  <p>
+    第一工科大学 AIロボット分野研究室<br>
+    〒899-4332 鹿児島県霧島市国分中央1-10-2<br>
+    Email: a-yorita@daiichi-koudai.ac.jp
+  </p>
+</section>
 
-  <footer>
-    <p>&copy; 2025 第一工科大学 AIロボット分野研究室</p>
-  </footer>
-
-</body>
-</html>
+<footer>
+  <p>&copy; 2025 第一工科大学 AIロボット分野研究室</p>
+</footer>
