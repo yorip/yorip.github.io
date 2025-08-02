@@ -1,0 +1,80 @@
+/* ベーススタイル */
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+    padding: 2rem;
+    margin: 0;
+    background: #f9f9f9;
+    color: #333;
+}
+
+/* ヘッダー */
+header {
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.5rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* リンク */
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* コンテンツ全体 */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 記事一覧 */
+.post-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.post-list li {
+    margin-bottom: 1.5rem;
+}
+
+.post-list h2 {
+    margin-bottom: 0.2rem;
+    font-size: 1.5rem;
+}
+
+.post-meta {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+/* 各記事ページ */
+article {
+    margin-bottom: 2rem;
+}
+
+article h1 {
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+footer {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #aaa;
+    border-top: 1px solid #ddd;
+    padding-top: 1rem;
+}
