@@ -1,0 +1,5 @@
+title: AIロボット分野研究室ブログ
+description: 勉強会・研究紹介・日々の記録
+theme: minima
+plugins:
+  - jekyll-feed
