@@ -73,6 +73,10 @@ a:hover {
   color: #0077cc; /* 好きな色に変更 */
   background: #f9f9f9;
 }
+.post-header p {
+  color: #0077cc; /* 好きな色に変更 */
+  background: #f9f9f9;
+}
 
 /* 各記事ページ */
 article {
