@@ -71,6 +71,7 @@ a:hover {
 
 .post-header h1 {
   color: #0077cc; /* 好きな色に変更 */
+  background: #f9f9f9;
 }
 
 /* 各記事ページ */
