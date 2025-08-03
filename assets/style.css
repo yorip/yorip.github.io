@@ -14,6 +14,8 @@ header {
     margin-bottom: 2rem;
     border-bottom: 2px solid #ccc;
     padding-bottom: 0.5rem;
+    background-color: #4cafaf;
+    text-align: center;
 }
 
 header h1 {
